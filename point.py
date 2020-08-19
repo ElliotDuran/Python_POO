@@ -23,6 +23,9 @@ class Point():
         r = self.__sub__(other)
         return r.norma()
 
+    def __eq__(self, other):
+        return self.x == other.x and self.y == other.y
+
     def __str__(self):
         return "(" + str(self.x) + "," + str(self.y) + ")"
 
