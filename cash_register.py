@@ -51,7 +51,7 @@ if __name__ == "__main__":
     
     cash_list = [c1, c2, c3, c4, c5]
     sorted_cash_list = sorted(cash_list)
-    print()
+    print("Cash Registers \n")
 
     for i in sorted_cash_list:
         print(i, end='\n\n')
