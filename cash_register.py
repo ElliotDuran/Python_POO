@@ -42,7 +42,7 @@ if __name__ == "__main__":
     c2 = CashRegister("Cash register 02", 3, 11, 8)     # $6.55
     c3 = CashRegister("Cash register 03", 10, 1, 2)     # $10.45
     c4 = CashRegister("Cash register 04", 2, 6, 1)      # $3.60
-    c5 = CashRegister("Cash register 05", 13, 9, 14)     # $10.9
+    c5 = CashRegister("Cash register 05", 13, 9, 14)    # $10.9
     
     cash_list = [c1, c2, c3, c4, c5]
     sorted_cash_list = sorted(cash_list)
